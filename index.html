@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upscale</title>
+
+	 <script src="index.js"></script> 
+
+<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="w3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.tit{
+	color: grey;
+	font-size: 13px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.t{
+border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}	
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+	<div class="topnav" id="myTopnav">
+	<img class="img" src="index.png">
+  	<a href="#About us">What we do</a>
+  	<a href="#Our Projects">What we have done</a>
+  	<a href="#Contact us" >Contact us</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	<img class="bg" src="bg2.jpg">
+
+<br>
+<div class="w3-panel w3-border-acp-mid-green w3-center w3-padding w3-margin-bottom" style="font-family: 'Titillium Web', sans-serif;">
+	<a name="About us"></a>
+      
+         <div class="w3-center" style="color: black; font-family: 'Titillium Web'; margin-top: 80px">Why Upscale</div>
+
+         <strong class="w3-center" style="font-size: 25px">Digital store is the need of this digital Era !</strong>
+     
+        <p class="w3-large" style="color: grey;">	&nbsp;&nbsp;&nbsp;&nbsp;	You might be having great business idea ! You might be having extraordinary product! You might be having a store to sell it ! But do you have any digital medium to get the customers ? Do you have any online platform to sell your product ? Do you plan to market your product digitally ? Well if not, We are here for you !</p>
+
+         <div class="w3-center" style="color: black; font-family: 'Titillium Web';margin-top: 100px;">What is Upscale</div>
+       <strong class="w3-center" style="font-size: 30px">Upscale through digital marketing !</strong>
+       <p class="w3-large" style="color: grey;">	&nbsp;&nbsp;&nbsp;&nbsp;	We believe that, In this digital world, Every business needs to come online to get succeed.  From developing an android application to market that app through advertisements, We have everything got covered ! We will help you to take your business next level through digitization.</p>
+</div>
+<br><br><br>
+            <a name="Our Projects"></a>
+        <p class="w3-center w3-xxxlarge" style="font-family: titillium web; font-weight: large;">Our Projects</p>
+<div class="row">
+  <div class="column">
+<div class="card">
+  <img src="onlinemess.png" alt="Onlinemess" style="width:100%">
+  <h1>Online mess</h1>
+  <p class="title" style="padding-left:10px; padding-right: 10px;">In cities, people who are dependent on messes for their daily meals generally struggle to find a place where they can get hygienic food. Even if one finds such mess which provide quality of food, they will have to pay for a month's charges to get it at an affordable price.
+
+Our initiative is to help such people find messes which provide hygienic food at the least possible price.</p>
+
+  <p><a class="t" href="https://onlinemess.herokuapp.com/home" target="_blank">onlinemess.herokuapp.com</a></p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+  <img src="onlinemess.png" alt="मोंडकर्स फूड" style="width:100%">
+  <h1>मोंडकर्स फूड</h1>
+  <p class="tit" style="padding-left:10px; padding-right: 10px;">प्रारंभीच्या काळात केवळ मसाले आणि खाद्यपदार्थ उत्पादने ही खासियत राहिलेल्या मोंडकर्स फूडने अन्नपदार्थांची होम डिलिव्हरी सुरू केली. अल्प काळात सावंतवाडीकर ग्राहकांचा मोठा प्रतिसाद मिळाला. आता नियमितपणे ही सेवा दिली जात आहे. घरचे आणि दर्जेदार अन्नपदार्थ हे मोंडकर्स फूडचे वैशिष्ट्य राहिले आणि भविष्यात राहणार आहे. मालवणी फूडची खासियत खवय्यांना नक्कीच मिळणार आहे. फक्त मालवणी फूडच नव्हे, तर विविध प्रकारचे रूचकर  अन्नपदार्थही चाखता येणार आहेत.  मोंडकर्स फूडचे मुख्य उद्दिष्ट हे आरोग्यदायी,स्वच्छ आणि रूचकर पदार्थ पुरविणे हेच राहिले आहे आणि राहणार आहे. गेली अनेक वर्षे सावंतवाडीकरांनी भरभरून प्रेम दिलंय. सावंतवाडीकरांसोबतचं नातं हे  ग्राहक व विक्रेत्याचं नसून जणू एक कुटुंबच बनलंय. आजही वैविध्यपूर्ण खाद्यपदार्थ आम्ही घेऊन आलो आहोत, जे सावंतवाडीकरांना नक्कीच आवडतील !</p>
+
+  <p><a class="t" href="https://play.google.com/store" target="_blank">मोंडकर्स फूड</a></p>
+</div>
+</div>
+</div>
+            <br><br><br>
+            <a name="Contact us"></a>
+        <p class="w3-center w3-xlarge" style="font-family: titillium web; font-weight: large;">If you want us to work for your brand, Mail us at ameya.thakur19@vit.edu</p>
+</body>
+</html>
