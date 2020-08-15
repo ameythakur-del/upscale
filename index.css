@@ -1,5 +1,5 @@
  /* Add a black background color to the top navigation */
- @media screen and (max-width: 1000px) {
+ @media screen and (min-width: 1000px) {
 .topnav {
   background-color: #FFFFFF;
   overflow: hidden;
