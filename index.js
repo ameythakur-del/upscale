@@ -2,7 +2,7 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
-     $("myTopnav").click(function () {
+     $("#myTopnav").click(function () {
         windowsize = $(window).width();
 
         if (windowsize < 440) {
@@ -11,7 +11,7 @@ function myFunction() {
     });
   } else {
     x.className = "topnav";
-     $("myTopnav").click(function () {
+     $("#myTopnav").click(function () {
         windowsize = $(window).width();
 
         if (windowsize < 440) {
