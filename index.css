@@ -11,7 +11,7 @@
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 50px 50px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -34,7 +34,7 @@
 } 
 
 .img{
-  height: 40px; width: 180px; margin: 25px;
+  height: 40px; width: 180px; margin: 50px;
 }
 
 .bg{
