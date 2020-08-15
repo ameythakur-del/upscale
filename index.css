@@ -1,6 +1,5 @@
  /* Add a black background color to the top navigation */
-
- @media screen and (min-width: 1000px) {
+ @media screen and (max-width: 1000px) {
 .topnav {
   background-color: #FFFFFF;
   overflow: hidden;
@@ -65,6 +64,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    size: 100px;
   }
   .topnav.responsive a {
     float: none;
