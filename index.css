@@ -1,4 +1,5 @@
  /* Add a black background color to the top navigation */
+
  @media screen and (min-width: 1000px) {
 .topnav {
   background-color: #FFFFFF;
@@ -47,7 +48,8 @@
   .topnav a.icon {
     float: right;
     display: block;
-    size: 50px;
+    height: 80px; 
+    width: 80px;
   }
   .img{
     height: 80px; width: 360px;
